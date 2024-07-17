@@ -1,0 +1,144 @@
+/* universal selector */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* shared styles */
+
+.primary-btn{
+    width:40%;
+    height:100%;
+    background-color:rgb(230, 83, 60);
+    color:white;
+    margin:0.6rem 3rem;
+    border-radius:2.8rem;
+    border: none;
+    box-sizing:border-box;
+    cursor: pointer;
+}
+
+.text-gray{
+
+    color:#525252;
+}
+
+/* header styles start */
+
+header{
+  background-color: rgba(0, 0, 0, 0.918);
+}
+
+.nav-left-title{
+    color:rgb(230, 83, 60);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    /* word-spacing:4px; */
+    font-weight:800;
+    font-size:2.2rem;
+    margin-top:1.9rem;
+}
+
+.nav-main{
+    display:flex;
+    justify-content: space-between;
+   margin-left:4rem;
+  margin-right:4rem;
+}
+
+.nav-items{
+    color:#f1f1f1;
+   display: flex;
+   gap:3.1rem;
+    box-sizing: border-box;
+    border:1px solid #121212;
+    border-radius:2.4rem;
+    margin:1rem 0;
+    margin-right:10%;
+    padding:0.8rem 0.6rem;
+    cursor:pointer;
+}
+
+.home-btn{
+    background-color:rgb(230, 83, 60);
+    /* margin:0 1.6rem; */
+    padding:0.4rem 0.8rem;
+    border-radius:2.8rem;
+}
+
+.content-parent{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:3.5rem;
+}
+
+.header-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2rem;
+}
+
+.header-text-content h1{
+    color:#ffffff;
+    font-size: 4.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    margin-bottom:5%;
+}
+
+.header-text-content span{
+    font-style: oblique;
+}
+
+#download-app{
+    width:40%;
+    height:100%;
+    color:#f1f1f1;
+    background-color:rgba(0, 0, 0, 0.103);
+  background-blend-mode: overlay;
+   box-sizing: border-box;
+   border-radius:2rem;
+   /* margin-right:15rem; */
+   border:2px solid #f1f1f1;
+   cursor: pointer;
+}
+
+.header-text-content div{
+    margin-top:5%;
+    margin-right:13%;
+}
+
+.header-image-content{
+    position:relative;
+}
+
+.header-image-content .absolute-1{
+    border-radius: 1rem;
+   background-color: #222222;
+    color:rgb(255, 255,254);
+    padding:0.7rem;
+    border:none;
+    position:absolute;
+    bottom:48%;
+    left:35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.header-image-content .absolute-2{
+    border-radius: 1rem;
+   background-color: #222222;
+    color:rgb(255, 255,254);
+    padding:0.7rem 1.5rem;
+    border:none;
+    position:absolute;
+    bottom:10%;
+   left:-5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+/* header styles end */
