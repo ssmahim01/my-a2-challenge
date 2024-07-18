@@ -1,5 +1,57 @@
 /* mobile screen responsive */
 
-@media screen and (max-width:500px){
-    
+@media screen and (max-width:576px){
+    .nav-main{
+        justify-content:space-between;
+    }
+    .bars-icon{
+        display:block;
+        margin-top:2.7rem;
+        margin-left:200px;
+    }
+
+    .nav-menu-container{
+        display:none;
+    }
+
+    .content-parent{
+        grid-template-columns:repeat(1, 1fr);
+    }
+
+    .header-text-content h1{
+        font-size:3.9rem;
+    }
+
+    .header-text-content p{
+        font-size:1.8rem;
+    }
+
+    .header-text-content .primary-btn{
+        width:46%;
+        height:58px;
+    }
+
+    .header-text-content #download-app{
+        width:46%;
+        height:58px;
+    }
+
+    .header-image-content{
+        margin-left:3.6rem;
+    }
+
+    .absolute-1{
+        margin-bottom:19%;
+        margin-left:16%;
+    }
+
+    .absolute-2{
+        margin-bottom:40%;
+        margin-left:14%;
+    }
+
+    #play-icon{
+     margin-bottom:-143px;
+     margin-left:0.8rem;
+    }
 }
