@@ -34,6 +34,10 @@
         font-size:2.9rem;
     }
 
+    .header-text-content span{
+        font-size:3.8rem;
+    }
+
     .header-text-content p{
         font-size:1.45rem;
     }
@@ -65,8 +69,8 @@
     }
 
     #play-icon{
-     margin-bottom:-143px;
-     margin-left:0.8rem;
+     margin-bottom:-142px;
+     margin-left:0.9rem;
     }
 
      /* header responsive end */
@@ -76,7 +80,7 @@
      .habits-section{
         position:relative;
         bottom:4.4rem;
-        margin-left:0.5rem;
+        margin-left:0.4rem;
      }
 
      .habits-text-content{
@@ -162,7 +166,7 @@
 
 
      .bmi-table-content td{
-        font-size:0.9rem;
+        font-size:0.8rem;
      }
 
      .bmi-input-content{
