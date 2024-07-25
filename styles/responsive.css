@@ -268,4 +268,36 @@
     }
      
      /* team section responsive end */
+
+
+     /* footer responsive start */
+
+     .footer-details-container{
+        flex-direction:column;
+     }
+
+     .fitness-description{
+        width:100%;
+        margin-left:-3rem;
+     }
+
+     .information-list1{
+        margin-top:4.8rem;
+        margin-left:-2.8rem;
+     }
+
+     .information-list2{
+        margin-top:0;
+        margin-left:-2.8rem;
+     }
+
+     #horizontal-line{
+        width:90%;
+     }
+
+     .fitness-copyright{
+        margin-left:-4.1rem;
+     }
+
+     /* footer responsive end */
 }
