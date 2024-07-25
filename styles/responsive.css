@@ -1,9 +1,17 @@
 /* mobile screen responsive */
 
 @media screen and (max-width:576px){
+    
+    /* header responsive start */
+
     .nav-main{
         justify-content:space-between;
     }
+
+    .nav-left-title{
+        margin-left:-34px;
+    }
+
     .bars-icon{
         display:block;
         margin-top:2.7rem;
@@ -18,40 +26,242 @@
         grid-template-columns:repeat(1, 1fr);
     }
 
+    .header-text-content{
+        margin-right:120px;
+    }
+
     .header-text-content h1{
-        font-size:3.9rem;
+        font-size:2.9rem;
     }
 
     .header-text-content p{
-        font-size:1.8rem;
+        font-size:1.45rem;
     }
 
     .header-text-content .primary-btn{
-        width:46%;
-        height:58px;
+        font-size:1rem;
+        width:47%;
+        height:50px;
     }
 
     .header-text-content #download-app{
-        width:46%;
-        height:58px;
+        font-size:1rem;
+        width:47%;
+        height:50px;
     }
 
-    .header-image-content{
-        margin-left:3.6rem;
+    .header-image-content img{
+        margin-left:-24%;
     }
 
     .absolute-1{
-        margin-bottom:19%;
-        margin-left:16%;
+        margin-bottom:25%;
+        margin-left:-12%;
     }
 
     .absolute-2{
-        margin-bottom:40%;
-        margin-left:14%;
+        margin-bottom:43%;
+        margin-left:-9%;
     }
 
     #play-icon{
      margin-bottom:-143px;
      margin-left:0.8rem;
     }
+
+     /* header responsive end */
+
+     /* habits section responsive start */
+
+     .habits-section{
+        position:relative;
+        bottom:4.4rem;
+        margin-left:0.5rem;
+     }
+
+     .habits-text-content{
+        text-align:center;
+     }
+
+     .habits-text-content #habits-description{
+        font-size:0.7rem;
+        text-align:center;
+     }
+
+     .habits-text-content h1{
+        font-size:1.3rem;
+     }
+
+     .habits-image-content{
+        grid-template-columns:1fr;
+        row-gap:1.4rem;
+     }
+
+     /* habits section responsive end */
+
+     /* run easily section responsive start */
+
+     .run-easily-section{
+        margin-right:45px;
+     }
+
+     .full-content-parent{
+        flex-direction:column;
+        justify-content:center;
+     }
+
+     .run-easily-title{
+        font-size:2.4rem;
+     }
+
+     .run-easily-text-content p{
+        padding:20px;
+        margin-left:-7%;
+     }
+
+     #run-easily-btn{
+       width:90%;
+       font-size:1rem;
+     }
+
+     .run-easily-image-content{
+        width:90%;
+        margin-top:2rem;
+        margin-right:220px;
+     }
+
+     /* run easily section responsive end */
+
+     /* BMI section responsive start */
+
+     .bmi-description{
+        margin-left:30px;
+     }
+     
+     .bmi-description h2{
+        font-size:2.1rem;
+     }
+
+     #bmi-introduction{
+        font-size:1.1rem;
+     }
+
+     .bmi-all-content{
+        flex-direction:column;
+     }
+
+     .bmi-table-content h3{
+        font-size:1.2rem;
+     }
+
+     .bmi-table-content{
+        width:90%;
+        margin-left:10px;
+        margin-top:3rem;
+     }
+
+
+     .bmi-table-content td{
+        font-size:0.9rem;
+     }
+
+     .bmi-input-content{
+        width:100%;
+    }
+
+    .input-content-introduction h3{
+        font-size:1.5rem;
+    }
+
+    .input-content-introduction p{
+        font-size:1.3rem;
+    }
+    
+    .input-content{
+        width:90%;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
+
+    .input1{
+        width:167px;
+        height:50px;
+    }
+    .input2{
+        width:167px;
+        height:50px;
+        margin-left:-64%;
+    }
+    .input3{
+        width:167px;
+        height:50px;
+    }
+    .select-gender{
+        width:167px;
+        height:50px;
+        margin-left:-64%;
+    }
+    .activity-factor{
+        width:355px;
+        height:47px;
+    }
+
+    .bmi-input-content button{
+        width:54%;
+    }
+
+     /* BMI section responsive end */
+
+
+     /* team section responsive start */
+
+     .team-image-content{
+        grid-template-columns:1fr;
+     }
+
+     .team-section-title{
+        font-size:1.4rem;
+     }
+
+     .team-section-description{
+         font-size:0.7rem;
+     }
+
+     .first-trainer-img, 
+     .fourth-trainer-img{
+        display:none;
+     }
+
+    #short-name{
+        display:block;
+    }
+
+    #second-trainer-name, 
+    .third-trainer-img{
+        display:none;
+    }
+
+    .third-trainer-img{
+        display:block;
+        height:88%;
+    }
+
+    .fifth-trainer-img img{
+        height:88%;
+        margin-top:0.5rem;
+    }
+
+    .sixth-trainer-img img{
+        height:88%;
+        margin-top:0.5rem;
+        position:relative;
+    }
+
+    #sixth-trainer-name, 
+    #sixth-trainer-position{
+        position:relative;
+        bottom:17%;
+    }
+     
+     /* team section responsive end */
 }
