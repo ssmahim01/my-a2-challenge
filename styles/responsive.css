@@ -139,6 +139,63 @@
 
      /* run easily section responsive end */
 
+     /* gym accessories section responsive start */
+
+     .gym-accessories-section{
+        height:1250px;
+     }
+
+     .first-gym-accessories-content, 
+     .second-gym-accessories-content{
+        flex-direction:column;
+        box-shadow:none;
+     }
+
+     .first-image-content img{
+        width:100%;
+        height:240px;
+     }
+
+     .first-gym-accessories-content .first-text-content{
+        width:100%;
+        text-align:center;
+        margin-top:25px;
+    }
+
+    .first-text-content h3{
+        font-size:1.6rem;
+    }
+
+    .first-text-content p{
+        font-size:0.85rem;
+        margin-left:30px;
+    }
+
+    .second-gym-accessories-content{
+        margin-top:15%;
+     }
+
+    .second-gym-accessories-content .second-text-content{
+        width:100%;
+        text-align:center;
+    }
+
+    .second-text-content h3{
+        font-size:1.6rem;
+    }
+
+    .second-text-content p{
+        font-size:0.85rem;
+    }
+
+     .second-image-content img{
+        width:100%;
+        height:240px;
+        margin:0;
+     }
+
+     /* gym accessories section responsive end */
+
      /* BMI section responsive start */
 
      .bmi-description{

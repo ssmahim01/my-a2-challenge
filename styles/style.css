@@ -307,7 +307,7 @@ header{
 
 /* habits section styles end */
 
-/* run easily section start */
+/* run easily section styles start */
 
 .run-easily-section{
     width:80%;
@@ -363,8 +363,95 @@ header{
     height:270px;
     border-radius:1.3rem;
 }
-/* run easily section end */
+/* run easily section styles end */
 
+/* gym accessories section styles start */
+
+.gym-accessories-section{
+    width:80%;
+    height:870px;
+    margin:0 auto;
+    margin-top:10%;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius:1rem;
+    padding-top:3.2rem;
+}
+
+.first-gym-accessories-content{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1.8rem 1.5rem;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius:1rem;
+    box-shadow:1.25rem 1.1rem 0.8rem 0.5rem #222222;
+}
+
+.first-image-content img{
+    width:75%;
+    height:300px;
+    border-radius:1.3rem;
+    border:4px solid rgba(255, 255, 255, 0.5);
+}
+
+.first-gym-accessories-content .first-text-content{
+    width:50%;
+    margin-bottom:1.9rem;
+}
+
+.first-text-content h3{
+    font-size:2.5rem;
+    font-weight:800;
+    margin:1.8rem 0;
+}
+
+.first-text-content p{
+    width:75%;
+    font-size:0.95rem;
+    font-weight:500;
+}
+
+.second-gym-accessories-content{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:4%;
+    padding:1.6rem 1.8rem;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius:1rem;
+    box-shadow:1.25rem 1.1rem 0.8rem 0.5rem #222222;
+}
+
+.second-gym-accessories-content .second-text-content{
+    width:50%;
+    margin-bottom:1.9rem;
+}
+
+.second-text-content h3{
+    font-size:2.6rem;
+    font-weight:800;
+    margin:1.8rem 0;
+}
+
+.second-text-content p{
+    font-size:0.9rem;
+    font-weight:500;
+}
+
+.second-image-content img{
+    width:85%;
+    height:300px;
+    border-radius:1.3rem;
+    border:4px solid rgba(255, 255, 255, 0.5);
+    margin-left:15%;
+}
+
+
+/* gym accessories section styles end */
 
 /* BMI section styles start */
 
