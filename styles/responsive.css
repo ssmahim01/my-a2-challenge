@@ -103,10 +103,43 @@
 
      /* habits section responsive end */
 
+     /* website creator responsive start */
+
+     .website-creator-container{
+        margin-top:-10%;
+        flex-direction:column;
+     }
+
+     .creator-image{
+        margin-right:50%;
+     }
+
+     .creator-information{
+        margin-top:1.6rem;
+        width:100%;
+        text-align:center;
+     }
+
+     .creator-heading{
+       font-size:1.5rem;
+     }
+
+     #web-developer{
+        font-size:1.7rem;
+     }
+
+     .creator-data{
+        font-size:0.7rem;
+        margin-bottom:20px;
+     }
+
+     /* website creator responsive end */
+
      /* run easily section responsive start */
 
      .run-easily-section{
         width:80%;
+        margin-top:20%;
         margin-right:45px;
      }
 
@@ -143,6 +176,7 @@
 
      .gym-accessories-section{
         height:1250px;
+        margin-top:20%;
      }
 
      .first-gym-accessories-content, 
@@ -195,6 +229,7 @@
      }
 
      /* gym accessories section responsive end */
+     
 
      /* BMI section responsive start */
 

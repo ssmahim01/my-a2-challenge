@@ -14,6 +14,11 @@
     box-sizing:border-box;
 }
 
+body{
+    font-family: "Inter", sans-serif;
+    background-color:black;
+}
+
 /* shared styles */
 
 .primary-btn{
@@ -40,11 +45,6 @@
 .trainer-text-color{
     color:rgba(255, 255, 255, 0.5);
     font-weight:lighter;
-}
-
-body{
-    font-family: "Inter", sans-serif;
-    background-color:black;
 }
 
 /* header styles start */
@@ -307,6 +307,58 @@ header{
 
 /* habits section styles end */
 
+/* website creator section styles start */
+
+.website-creator-container{
+    width:80%;
+    margin:0 auto;
+    background-color:rgba(255, 255, 255, 0.1);
+    padding:1.4rem;
+    margin-top:5%;
+    margin-bottom:10%;
+    border-radius:1.15rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.creator-image{
+    width:50%;
+}
+
+.creator-image img{
+    border:5px solid khaki;
+    border-radius:1.15rem;
+}
+
+.creator-information{
+    width:50%;
+    margin-right:5%;
+}
+
+.creator-heading{
+    font-size:2rem;
+    font-weight:800;
+    text-align:center;
+    /* margin-right:260px; */
+}
+
+#web-developer{
+    font-size:2.3rem;
+    font-weight:lighter;
+    color:rgb(230, 83, 60);
+    font-family:'Real Miami', sans-serif;
+}
+
+.creator-data{
+    font-size:0.9rem;
+    font-weight:500;
+    margin-top:1.5rem;
+}
+
+/* website creator section styles end */
+
+
 /* run easily section styles start */
 
 .run-easily-section{
@@ -452,6 +504,7 @@ header{
 
 
 /* gym accessories section styles end */
+
 
 /* BMI section styles start */
 
