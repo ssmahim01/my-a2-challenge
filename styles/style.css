@@ -1,3 +1,7 @@
+/* The font family link of Miama */
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 /* The font family link of Real Miami */
 
 @import url('https://fonts.cdnfonts.com/css/real-miami');
@@ -61,7 +65,7 @@ header{
     font-weight:800;
     font-size:2.4rem;
     margin-top:1.9rem;
-    margin-left:-30px;
+    margin-left:70px;
 }
 
 .nav-main{
@@ -111,22 +115,25 @@ header{
 }
 
 .header-text-content{
-    display: flex;
+    width:550px;
+    height:300px;
+    display:flex;
     flex-direction: column;
     justify-content: center;
-    margin:2rem;
+    margin-left:8rem;
+    margin-top:130px;
 }
 
 .header-text-content h1{
     color:#ffffff;
-    font-size: 4.7rem;
-    font-weight: 900;
+    font-size:4rem;
+    font-weight:900;
     margin-bottom:5%;
 }
 
 .header-text-content span{
-    font-family: 'Real Miami', sans-serif;
-    font-size:5.5rem;
+    font-family:'Miama', sans-serif;
+    font-size:7.5rem;
 }
 
 #download-app{
@@ -163,31 +170,34 @@ header{
 }
 
 .header-image-content .absolute-1{
+    color:#f1f1f1;
     border-radius: 1rem;
-    background-color:rgba(47, 47, 47, 0.54);
-    color:rgb(255, 255,254);
-    padding:0.7rem;
+    background-color:rgba(255, 255,255, 0.1);
+    padding:1rem 1rem;
     border:none;
     position:absolute;
     bottom:62%;
     left:40%;
-    font-size: 1rem;
-    backdrop-filter: blur(0.3rem);
+    backdrop-filter: blur(1.25rem);
     cursor: pointer;
 }
 
+.absolute-1 h2{
+    font-size:35px;
+    font-weight:900;
+}
+
 .header-image-content .absolute-2{
-    border-radius: 1rem;
-   background-color:rgba(47, 47, 47, 0.54);
-    color:rgb(255, 255,254);
-    padding:0.7rem 1rem;
+    color:#f1f1f1;
+    border-radius:1rem;
+    background-color:rgba(255, 255,255, 0.1);
+    padding:1.3rem 1rem;
     padding-left:4rem;
     border:none;
     position:absolute;
     bottom:14%;
    left:-12%;
-    font-size: 1rem;
-    backdrop-filter: blur(0.3rem);
+    backdrop-filter:blur(1.25rem);
     cursor: pointer;
 }
 
@@ -197,7 +207,7 @@ header{
     background-color: rgb(230, 83, 60);
     border-radius:50%;
     position:absolute;
-    top:20%;
+    top:25%;
     left:7%;
 }
 
@@ -344,7 +354,7 @@ header{
 }
 
 #web-developer{
-    font-size:2.3rem;
+    font-size:2.9rem;
     font-weight:lighter;
     color:rgb(230, 83, 60);
     font-family:'Real Miami', sans-serif;
