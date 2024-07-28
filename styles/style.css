@@ -26,8 +26,8 @@ body{
 /* shared styles */
 
 .primary-btn{
-    width:33%;
-    height:50px;
+    width:40%;
+    height:55px;
     background-color:rgb(230, 83, 60);
     color:white;
     /* margin:0.6rem 3rem; */
@@ -82,7 +82,7 @@ header{
     box-sizing: border-box;
     border:1px solid #323232;
     border-radius:2.4rem;
-    margin:1rem 0;
+    margin:1.9rem 0;
     margin-right:10%;
     padding:0.2rem 0.3rem;
     padding-right:1rem;
@@ -137,8 +137,8 @@ header{
 }
 
 #download-app{
-    width:33%;
-    height:50px;
+    width:40%;
+    height:55px;
     color:#f1f1f1;
     background-color:rgba(0, 0, 0, 0.103);
   background-blend-mode: overlay;
@@ -177,7 +177,7 @@ header{
     border:none;
     position:absolute;
     bottom:62%;
-    left:40%;
+    left:42%;
     backdrop-filter: blur(1.25rem);
     cursor: pointer;
 }
@@ -651,8 +651,8 @@ td{
 /* team section styles start */
 
 .team-section-container{
-    width:90%;
-    height:90%;
+   width:90%;
+   height:90%;
     margin:0 auto;
     margin-top:7%;
 }
@@ -799,7 +799,7 @@ td{
 
 .footer-container{
     background-color:rgba(255, 255, 255, 0.1);
-    margin-top:3.3rem;
+    margin-top:4.5rem;
 }
 
 .footer-details-container{
