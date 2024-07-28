@@ -131,7 +131,7 @@ header{
     margin-bottom:5%;
 }
 
-.header-text-content span{
+.header-text-content #shape{
     font-family:'Miama', sans-serif;
     font-size:7.5rem;
 }
@@ -587,7 +587,6 @@ td{
     margin-bottom:50px;
 }
 
-
 .input-content{
     /* width:100%;
     height:100%; */
@@ -599,7 +598,8 @@ td{
 .input1{
     width:38%;
     height:10%;
-    background-color:#222222;
+    background-color:rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.8);
     border-radius:0.9rem;
     padding:1rem;
     border:none;
@@ -608,7 +608,8 @@ td{
 .input2{
     width:38%;
     height:10%;
-    background-color:#222222;
+    background-color:rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.8);
     border-radius:0.9rem;
     padding:1rem;
     margin-right:120px;
@@ -618,7 +619,8 @@ td{
 .input3{
     width:38%;
     height:10%;
-    background-color:#222222;
+    background-color:rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.8);
     border-radius:0.9rem;
     padding:1rem;
     border:none;
@@ -627,7 +629,8 @@ td{
 .select-gender{
     width:38%;
     height:10%;
-    background-color:#222222;
+    background-color:rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.3);
     border-radius:0.9rem;
     padding:1rem;
     margin-right:120px;
@@ -638,12 +641,18 @@ td{
 .activity-factor{
     width:78%;
     height:8%;
-    background-color:#222222;
+    background-color:rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.3);
     border-radius:0.9rem;
     padding:0.9rem;
     border:none;
     margin-bottom:5%;
     font-size:1rem;
+}
+
+.bmi-input-content button{
+    width:34%;
+    height:50px;
 }
 
 /* BMI section styles end */
