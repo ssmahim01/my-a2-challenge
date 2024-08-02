@@ -76,7 +76,7 @@
     }
 
     .header-image-content img{
-        margin-top:25%;
+        margin-top:16%;
         margin-left:8%;
     }
 
@@ -84,7 +84,8 @@
         width:40%;
         height:13%;
         font-size:0.8rem;
-        margin-left:13%;
+        margin-left:12%;
+        margin-bottom:10%;
     }
 
     .absolute-2{
@@ -107,7 +108,7 @@
      .habits-section{
         position:relative;
         bottom:4.4rem;
-        margin-left:1rem;
+        margin-left:1.2rem;
      }
 
      .habits-text-content{
@@ -116,18 +117,19 @@
     }
     
     .habits-text-content h1{
-        font-size:1.8rem;
-        margin-left:-19%;
+        width:320px;
+        font-size:2rem;
+        margin-left:-20%;
      }
 
      .habits-text-content #habits-description{
-        margin-left:-15%;
+        margin-left:-5%;
         font-size:0.8rem;
      }
 
      .habits-image-content{
         margin-top:20%;
-        margin-left:-7%;
+        margin-left:-5%;
         grid-template-columns:1fr;
         row-gap:1.4rem;
      }
@@ -149,11 +151,12 @@
 
      .run-easily-title{
         margin-left:-1.1rem;
-        font-size:2.4rem;
+        font-size:2.2rem;
      }
 
      .run-easily-text-content p{
         /* padding:20px; */
+        font-size:0.9rem;
         margin-left:-7%;
      }
 
@@ -385,6 +388,18 @@
         display:none;
      }
 
+     #short-name, 
+    #second-trainer-position, 
+    #third-trainer-name, 
+    #third-trainer-position, 
+    #fifth-trainer-name, 
+    #fifth-trainer-position, 
+    #sixth-trainer-name, 
+    #sixth-trainer-position{
+        width:fit-content;
+    }
+
+     
     #short-name{
         display:block;
     }
