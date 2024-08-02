@@ -96,7 +96,7 @@
     }
 
     #play-icon{
-     margin-bottom:-143px;
+     margin-bottom:-157px;
      margin-left:1rem;
     }
 
@@ -107,21 +107,27 @@
      .habits-section{
         position:relative;
         bottom:4.4rem;
-        margin-left:0.4rem;
+        margin-left:1rem;
      }
 
      .habits-text-content{
+        width:100%;
         text-align:center;
+    }
+    
+    .habits-text-content h1{
+        font-size:1.8rem;
+        margin-left:-19%;
      }
 
-     .habits-text-content h1{
-        width:300px;
+     .habits-text-content #habits-description{
         margin-left:-15%;
-        font-size:1.8rem;
+        font-size:0.8rem;
      }
 
      .habits-image-content{
         margin-top:20%;
+        margin-left:-7%;
         grid-template-columns:1fr;
         row-gap:1.4rem;
      }
@@ -132,7 +138,7 @@
 
      .run-easily-section{
         width:80%;
-        margin-top:3%;
+        margin-top:-10%;
         margin-right:45px;
      }
 
@@ -157,11 +163,16 @@
        margin-left:-20px;
      }
 
-     .run-easily-image-content{
+     .run-easily-image-content1{
+        display:none;
+     }
+
+     .run-easily-image-content2{
+        display:block;
         margin:0;
      }
 
-     .run-easily-image-content img{
+     .run-easily-image-content2 img{
         width:100%;
         margin-top:2rem;
      }
@@ -172,7 +183,7 @@
 
      .gym-accessories-section{
         height:1250px;
-        margin-top:25%;
+        margin-top:15%;
      }
 
      .first-gym-accessories-content, 
@@ -261,18 +272,20 @@
      /* BMI section responsive start */
 
      .bmi-description{
+        width:85%;
         margin-left:30px;
      }
      
      .bmi-description h2{
-        font-size:2.1rem;
+        font-size:1.9rem;
      }
 
      #bmi-introduction{
-        font-size:1.1rem;
+        font-size:0.8rem;
      }
 
      .bmi-all-content{
+        height:100%;
         flex-direction:column;
      }
 
@@ -297,13 +310,13 @@
     }
 
     .input-content-introduction h3{
-        font-size:1.5rem;
-    }
-
-    .input-content-introduction p{
         font-size:1.3rem;
     }
-    
+
+    .input-content-introduction #input-content-description{
+        font-size:0.9rem;
+    }
+
     .input-content{
         width:100%;
         display:grid;
@@ -345,15 +358,26 @@
      /* team section responsive start */
 
      .team-image-content{
+        width:360px;
+        height:1200px;
         grid-template-columns:1fr;
+        margin-top:10%;
+     }
+
+     .team-text-content{
+        width:80%;
      }
 
      .team-section-title{
-        font-size:1.4rem;
+        font-size:2rem;
      }
 
      .team-section-description{
-         font-size:0.7rem;
+         font-size:0.9rem;
+     }
+
+     .team-image-content{
+        margin-top:2.5rem;
      }
 
      .first-trainer-img, 
@@ -365,31 +389,25 @@
         display:block;
     }
 
-    #second-trainer-name, 
-    .third-trainer-img{
+    .second-trainer-img{
+        margin-left:1.5%;
+        margin-bottom:-13%;
+    }
+
+    #second-trainer-name{
         display:none;
     }
 
     .third-trainer-img{
-        display:block;
-        height:88%;
+        margin-left:2.5%;
     }
 
-    .fifth-trainer-img img{
-        height:88%;
-        margin-top:0.5rem;
+    .fifth-trainer-img{
+        margin-left:2%;
     }
 
-    .sixth-trainer-img img{
-        height:88%;
-        margin-top:0.5rem;
-        position:relative;
-    }
-
-    #sixth-trainer-name, 
-    #sixth-trainer-position{
-        position:relative;
-        bottom:17%;
+    .sixth-trainer-img{
+        margin-left:2.5%;
     }
      
      /* team section responsive end */

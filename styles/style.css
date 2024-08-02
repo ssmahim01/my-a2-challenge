@@ -136,6 +136,15 @@ header{
     font-size:7.5rem;
 }
 
+.header-text-content p{
+    font-size:1.1rem;
+    font-weight:500;
+}
+
+.header-text-content div{
+    margin-top:5%;
+}
+
 #download-app{
     width:40%;
     height:55px;
@@ -148,15 +157,6 @@ header{
    border:2px solid #f1f1f1;
    font-size:1rem;
    cursor: pointer;
-}
-
-.header-text-content div{
-    margin-top:5%;
-}
-
-.header-text-content p{
-    font-size:1.1rem;
-    font-weight: 500;
 }
 
 .header-image-content{
@@ -213,7 +213,7 @@ header{
 
 #play-icon{
     position:absolute;
-    bottom:155px;
+    bottom:170px;
 }
 
 /* header styles end */
@@ -232,18 +232,20 @@ header{
     padding:4.5rem;
 }
 .habits-text-content{
-    text-align: center;
+    width:70%;
+    margin:0 auto;
+    text-align:center;
 }
 
 .habits-text-content h1{
     color:#f1f1f1;
     /* margin-top:1.1rem; */
-    font-size:2.4rem;
+    font-size:2.8rem;
     font-weight:800;
 }
 
 .habits-text-content #habits-description{
-    font-size:0.85rem;
+    font-size:0.9rem;
     font-weight:500;
     margin-top:1rem;
 }
@@ -325,7 +327,7 @@ header{
     margin:0 auto;
     background-color:#222222;
     border-radius:1rem;
-    /* margin-top:1rem; */
+    margin-top:2.6rem;
 }
 
 .full-content-parent{
@@ -362,17 +364,30 @@ header{
 }
 
 
-.run-easily-image-content{
+.run-easily-image-content1{
     /* margin-top:1.8rem; */
     margin-left:230px;
     width:100%;
 }
 
-.run-easily-image-content img{
+.run-easily-image-content1 img{
     width:350px;
     height:270px;
     border-radius:1.3rem;
 }
+
+.run-easily-image-content2{
+    display:none;
+    margin-left:230px;
+    width:100%;
+}
+
+.run-easily-image-content2 img{
+    width:350px;
+    height:210px;
+    border-radius:1.3rem;
+}
+
 /* run easily section styles end */
 
 /* gym accessories section styles start */
@@ -381,7 +396,7 @@ header{
     width:80%;
     height:870px;
     margin:0 auto;
-    margin-top:10%;
+    margin-top:7%;
     background-color:rgba(255, 255, 255, 0.1);
     border-radius:1rem;
     padding-top:3.2rem;
@@ -470,8 +485,8 @@ header{
     margin:0 auto;
     background-color:rgba(255, 255, 255, 0.1);
     padding:1.4rem;
-    margin-top:5%;
-    margin-bottom:10%;
+    margin-top:7%;
+    /* margin-bottom:10%; */
     border-radius:1.15rem;
     display:flex;
     justify-content:space-between;
@@ -518,7 +533,7 @@ header{
 /* BMI section styles start */
 
 .bmi-main-section{
-    margin-top:100px;
+    margin-top:7%;
 }
 
 .bmi-description{
@@ -533,32 +548,37 @@ header{
 }
 
 .bmi-description h2{
-    font-size:2.5rem;
-    font-weight:800;
+    font-size:2.8rem;
+    font-weight:900;
 }
 
 #bmi-introduction{
     font-size:0.9rem;
-    font-weight:600;
+    font-weight:500;
 }
 
 
 .bmi-all-content{
+    height:500px;
     background-color:rgba(47, 47, 47, 0.54);
     display:flex;
     justify-content:space-between;
-    gap:30px;
+    align-items:center;
+    gap:40px;
+    margin-top:6%;
 }
 
 .bmi-table-content{
-    margin-top:2%;
+    margin-bottom:5%;
     margin-left:8%;
 }
+
 .bmi-table-content h3{
     font-size:2rem;
     font-weight:800;
     margin-bottom:5%;
 }
+
 .bmi-table-content table{
     border-collapse:collapse;
 }
@@ -571,17 +591,18 @@ td{
 
 .bmi-input-content{
     width:50%;
+    margin-bottom:1%;
     padding:1.5rem;
 }
 
 .input-content-introduction h3{
     font-size:1.8rem;
-    font-weight:800;
+    font-weight:900;
     margin-bottom:20px;
 }
 
 .input-content-introduction p{
-    font-size:1.2rem;
+    font-size:1rem;
     font-weight:500;
     margin-bottom:50px;
 }
@@ -598,32 +619,35 @@ td{
     width:38%;
     height:10%;
     background-color:rgba(255, 255, 255, 0.1);
-    color:rgba(255, 255, 255, 0.8);
+    color:rgba(255, 255, 255, 0.6);
     border-radius:0.9rem;
     padding:1rem;
     border:none;
     font-size:1rem;
+    font-weight:400;
 }
 .input2{
     width:38%;
     height:10%;
     background-color:rgba(255, 255, 255, 0.1);
-    color:rgba(255, 255, 255, 0.8);
+    color:rgba(255, 255, 255, 0.6);
     border-radius:0.9rem;
     padding:1rem;
     margin-right:120px;
     border:none;
     font-size:1rem;
+    font-weight:400;
 }
 .input3{
     width:38%;
     height:10%;
     background-color:rgba(255, 255, 255, 0.1);
-    color:rgba(255, 255, 255, 0.8);
+    color:rgba(255, 255, 255, 0.6);
     border-radius:0.9rem;
     padding:1rem;
     border:none;
     font-size:1rem;
+    font-weight:400;
 }
 .select-gender{
     width:38%;
@@ -635,6 +659,7 @@ td{
     margin-right:120px;
     border:none;
     font-size:1rem;
+    font-weight:400;
 }
 
 .activity-factor{
@@ -647,6 +672,7 @@ td{
     border:none;
     margin-bottom:5%;
     font-size:1rem;
+    font-weight:400;
 }
 
 .bmi-input-content button{
@@ -673,58 +699,61 @@ td{
 }
 
 .team-section-title{
-    font-size:2.7rem;
+    font-size:2.9rem;
     font-weight:800;
 }
 
 .team-section-description{
     margin-top:1rem;
-    font-size:1rem;
+    font-size:0.9rem;
     font-weight:500;
 }
 
 .team-image-content{
-    width:90%;
+    width:1055px;
+    height:610px;
     margin:0 auto;
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     background-color:#222222;
     border-radius:1rem;
     margin-top:60px;
-    padding-left:0.5rem;
-    padding-right:1.2rem;
+    /* padding-left:0.5rem;
+    padding-right:1.2rem; */
 }
 
 .first-trainer-img img{
-    width:95%;
-    height:90%;
+    width:326px;
+    height:272px;
     position:relative;
     border-radius:1rem;
-    margin-top:50px;
-    margin-left:15px;
+    margin-top:1.4rem;
+    margin-left:1.1rem;
 }
 
 #first-trainer-name, 
 #first-trainer-position{
     position:relative;
-    bottom:15%;
-    left:8%;
+    bottom:18%;
+    left:10%;
 }
 
 .second-trainer-img img{
-    width:95%;
-    height:90%;
+    /* width:95%;
+    height:90%; */
+    width:326px;
+    height:272px;
     position:relative;
     border-radius:1rem;
-    margin-top:50px;
-    margin-left:15px;
+    margin-top:1.4rem;
+    margin-left:0.8rem;
 }
 
 
 #second-trainer-name, 
 #second-trainer-position{
     position:relative;
-    bottom:15%;
+    bottom:18%;
     left:8%;
 }
 
@@ -732,71 +761,79 @@ td{
     display:none;
     color:#f1f1f1;
     position:relative;
-    bottom:15%;
+    bottom:18%;
     left:8%;
 }
 
 .third-trainer-img img{
-    width:95%;
-    height:90%;
+    /* width:95%;
+    height:90%; */
+    width:326px;
+    height:272px;
     position:relative;
     border-radius:1rem;
-    margin-top:50px;
-    margin-left:15px;
+    margin-top:1.4rem;
+    margin-left:0.5rem;
 }
 
 #third-trainer-name, 
 #third-trainer-position{
     position:relative;
-    bottom:15%;
+    bottom:18%;
     left:8%;
 }
 
 .fourth-trainer-img img{
-    width:95%;
-    height:80%;
+    /* width:95%;
+    height:80%; */
+    width:326px;
+    height:272px;
     position:relative;
     border-radius:1rem;
-    margin-top:55px;
-    margin-left:15px;
+    margin-top:-1.6rem;
+    margin-left:1.1rem;
 }
 
 #fourth-trainer-name, 
 #fourth-trainer-position{
     position:relative;
-    bottom:15%;
-    left:8%;
+    bottom:20%;
+    left:10%;
 }
 
 .fifth-trainer-img img{
-    width:95%;
-    height:80%;
+    /* width:95%;
+    height:80%; */
+    width:326px;
+    height:272px;
     position:relative;
     border-radius:1rem;
-    margin-top:55px;
-    margin-left:15px;
+    margin-top:-1.6rem;
+    margin-left:0.7rem;
 }
 
 #fifth-trainer-name, 
 #fifth-trainer-position{
     position:relative;
-    bottom:15%;
+    bottom:20%;
     left:8%;
 }
 
 .sixth-trainer-img img{
-    width:95%;
-    height:80%;
+    /* width:95%;
+    height:80%; */
+    width:326px;
+    height:272px;
     position:relative;
     border-radius:1rem;
-    margin-top:55px;
-    margin-left:15px;
+    margin-top:-1.6rem;
+    margin-left:0.5rem;
 }
 
 #sixth-trainer-name, 
 #sixth-trainer-position{
     position:relative;
-    bottom:15%;
+    bottom:20%;
     left:8%;
 }
 
