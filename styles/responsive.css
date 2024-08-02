@@ -116,12 +116,8 @@
 
      .habits-text-content h1{
         width:300px;
-        margin-left:-20%;
+        margin-left:-15%;
         font-size:1.8rem;
-     }
-
-     .habits-text-content #habits-description{
-        font-size:0.9rem;
      }
 
      .habits-image-content{
@@ -132,43 +128,11 @@
 
      /* habits section responsive end */
 
-     /* website creator responsive start */
-
-     .website-creator-container{
-        margin-top:-10%;
-        flex-direction:column;
-     }
-
-     .creator-image{
-        margin-right:51%;
-     }
-
-     .creator-information{
-        margin-top:1.6rem;
-        width:100%;
-        text-align:center;
-     }
-
-     .creator-heading{
-       font-size:1.5rem;
-     }
-
-     #web-developer{
-        font-size:2.2rem;
-     }
-
-     .creator-data{
-        font-size:0.7rem;
-        margin-bottom:20px;
-     }
-
-     /* website creator responsive end */
-
      /* run easily section responsive start */
 
      .run-easily-section{
         width:80%;
-        margin-top:20%;
+        margin-top:3%;
         margin-right:45px;
      }
 
@@ -208,7 +172,7 @@
 
      .gym-accessories-section{
         height:1250px;
-        margin-top:20%;
+        margin-top:25%;
      }
 
      .first-gym-accessories-content, 
@@ -262,6 +226,37 @@
 
      /* gym accessories section responsive end */
      
+      /* website creator responsive start */
+
+      .website-creator-container{
+        margin-top:15%;
+        flex-direction:column;
+     }
+
+     .creator-image{
+        margin-right:51%;
+     }
+
+     .creator-information{
+        margin-top:1.6rem;
+        width:100%;
+        text-align:center;
+     }
+
+     .creator-heading{
+       font-size:1.5rem;
+     }
+
+     #web-developer{
+        font-size:2.2rem;
+     }
+
+     .creator-data{
+        font-size:0.7rem;
+        margin-bottom:20px;
+     }
+
+     /* website creator responsive end */
 
      /* BMI section responsive start */
 
