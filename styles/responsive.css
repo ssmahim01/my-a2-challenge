@@ -71,33 +71,38 @@
         height:50px;
     }
 
-    .header-image-content{
+    .header-image-content1{
+        display:none;
+    }
+
+    .header-image-content2{
+        display:block;
         margin:0;
     }
 
-    .header-image-content img{
+    .header-image-content2 img{
         margin-top:16%;
         margin-left:8%;
     }
 
     .absolute-1{
         width:40%;
-        height:13%;
+        height:15%;
         font-size:0.8rem;
         margin-left:12%;
-        margin-bottom:10%;
+        margin-bottom:3%;
     }
 
-    .absolute-2{
+   .absolute-2{
         width:40%;
-        height:12%;
+        height:14%;
         font-size:0.8rem;
-        margin-bottom:38%;
+        margin-bottom:22%;
         margin-left:22%;
     }
 
-    #play-icon{
-     margin-bottom:-157px;
+   #play-icon{
+     margin-bottom:-162px;
      margin-left:1rem;
     }
 
@@ -119,7 +124,7 @@
     .habits-text-content h1{
         width:320px;
         font-size:2rem;
-        margin-left:-20%;
+        margin-left:-18%;
      }
 
      .habits-text-content #habits-description{
@@ -414,14 +419,19 @@
     }
 
     .third-trainer-img{
-        margin-left:2.5%;
+        position:relative;
+        top:18.4rem;
+        left:2.5%;
     }
 
     .fifth-trainer-img{
-        margin-left:2%;
+        position:relative;
+        top:-18.3rem;
+        left:2%;
     }
 
     .sixth-trainer-img{
+        margin-top:0.2rem;
         margin-left:2.5%;
     }
      

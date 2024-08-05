@@ -159,17 +159,17 @@ header{
    cursor: pointer;
 }
 
-.header-image-content{
+.header-image-content1{
     position:relative;
     margin-left:7.5rem;
 }
 
-.header-image-content img{
+.header-image-content1 img{
     position:relative;
     top:4px;
 }
 
-.header-image-content .absolute-1{
+.absolute-1{
     color:#f1f1f1;
     border-radius: 1rem;
     background-color:rgba(255, 255,255, 0.1);
@@ -179,7 +179,7 @@ header{
     bottom:62%;
     left:42%;
     backdrop-filter: blur(1.25rem);
-    cursor: pointer;
+    cursor:pointer;
 }
 
 .absolute-1 h2{
@@ -187,7 +187,7 @@ header{
     font-weight:900;
 }
 
-.header-image-content .absolute-2{
+.absolute-2{
     color:#f1f1f1;
     border-radius:1rem;
     background-color:rgba(255, 255,255, 0.1);
@@ -198,10 +198,10 @@ header{
     bottom:11%;
    left:-12%;
     backdrop-filter:blur(1.25rem);
-    cursor: pointer;
+    cursor:pointer;
 }
 
-.header-image-content .absolute-2 .circle{
+.absolute-2 .circle{
     width:40px;
     height:40px;
     background-color: rgb(230, 83, 60);
@@ -213,7 +213,17 @@ header{
 
 #play-icon{
     position:absolute;
-    bottom:170px;
+    bottom:175px;
+}
+
+.header-image-content2{
+    display:none;
+    position:relative;
+}
+
+.header-image-content2 img{
+    position:relative;
+    top:4px;
 }
 
 /* header styles end */
