@@ -250,7 +250,7 @@
                     </table>
                 </div>
     
-                <div class="bmi-input-content">
+                <form class="bmi-input-content">
 
                     <div class="input-content-introduction">
 
@@ -263,9 +263,9 @@
 
                         <div class="input-content">
 
-                                <input class="input1" type="text" name="" id="" placeholder="Height/cm">
-                                <input class="input2" type="text" name="" id="" placeholder="Weight/kg">
-                                <input class="input3" type="text" name="" id="" placeholder="Age">
+                                <input class="input1" type="text" name="" id="" placeholder="Height/cm" required>
+                                <input class="input2" type="text" name="" id="" placeholder="Weight/kg" required>
+                                <input class="input3" type="text" name="" id="" placeholder="Age" required>
                                 <select name="" id="" class="text-gray select-gender">
                                     <option value="sex">Sex</option>
                                     <option value="male">Male</option>
@@ -277,9 +277,9 @@
                                 </select>
                         </div>
 
-                        <button class="primary-btn">Calculate</button>
+                        <button class="primary-btn" type="submit">Calculate</button>
                         
-                    </div>
+                    </form>
                 
             </div>
         </section>
@@ -376,6 +376,5 @@
     </footer>
 
     <!-- Footer end -->
-
 </body>
 </html>
